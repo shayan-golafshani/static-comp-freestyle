@@ -1,2 +1,5 @@
 # static-comp-freestyle
-Recreating a static-comp-with some slight liberties
+
+## About
+This is an exercise in recreating a static-comp-with some slight liberties.
+It's an opportunity to practice grid, etc. 
