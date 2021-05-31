@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+      padding: 0;
+      border: 0;
+      vertical-align: baseline;
+    font-family: 'Raleway', sans-serif;
+  }
+
+
+@media screen and (min-width: 55em) {
+    body {
+      background: magenta;
+    }
+  }
+  
+  @media screen and (max-width: 40em) {
+    body {
+      background: teal;
+    }
+  } 
+
+h1 {
+    color: red;
+}
