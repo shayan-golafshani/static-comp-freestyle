@@ -11,7 +11,6 @@
 </head>
 <body>
     <nav class="navbar">
-        <div class="brand-title">Fifa Ultimate Team</div>
         <a href="#" class="toggle-button">
             <span class="bar"></span>
             <span class="bar"></span>
@@ -19,10 +18,35 @@
         </a>
         <div class="navbar-links">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <div class="group-links">
+                    <div class="button-pairing">
+                        <img src="./assets/share-symbol-in-square-button.png" alt="share button">
+                        <li><a href="#">Share</a></li>
+                    </div>
+                    <div class="button-pairing">
+                        <img src="./assets/roster.png" alt="Roster Button">
+                        <li><a href="#">Rosters</a></li>
+                    </div>
+    
+                    <div class="button-pairing">
+                        <img src="./assets/video-camera.png" alt="Video Highlights">
+                        <li><a href="#">Highlights</a></li>
+                    </div>
+                </div>
             </ul>
+        </div>
+        <div class="brand-title">
+            <div class="user-login">
+                <img src="./assets/soccer-player-user.png" alt="User selection area, stick-figure dribbles ball">
+                <label for="users">Admin Username</label>
+                <select name="users" id="admin-usernames">
+                    <option value="user1"></option>
+                    <option value="user2"></option>
+                    <option value="user3"></option>
+                </select>
+            </div>
+            Fifa Ultimate Team
+            <img src="./assets/fireball.png"
         </div>
     </nav>
 
@@ -33,29 +57,116 @@
 
     <div class="grid-container">
         <div class="grid-item grid-item-1">
-            <img src="./assets/Mbappe.png">
-            <p>Lorem ipsum dolor sit amet.</p>
+            <div class=card-overlay>
+                <img class="fireball-selector" src="./assets/fireball.png" alt="Player selector, ball on fire">
+                <p class="overlay-text">Favs <br>  02</p>
+                <img class= "player-image" src="./assets/Mbappe.png" alt="Kylian Mbappe smiles">
+            </div>
+            <p class="player-name">Kylian Mbappe</p>
+            <p class="date">${date}</p>
+            <p class="about-player">Drop a wiki link</p>
+            <p class="team">Team</p>
+            <p class="team-info">Paris Saint Germain</p>
+            <p class="rating">RATING</p>
+            <p class="rating-info">94</p>
         </div>
         <div class="grid-item grid-item-2">
-            <img src="./assets/Haaland.png">
+            <div class=card-overlay>
+                <img class="fireball-selector" src="./assets/fireball.png" alt="Player selector, ball on fire">
+                <p class="overlay-text">Favs <br>  02</p>
+                <img class= "player-image" src="./assets/Haaland.png" alt="Eerling Haaland smiles, and acts a fool.">
+            </div>
+            <p class="player-name">Erling Haaland</p>
+            <p class="date">${date}</p>
+            <p class="about-player">Drop a wiki link</p>
+            <p class="team">Team</p>
+            <p class="team-info">Borussia Dortmund</p>
+            <p class="rating">RATING</p>
+            <p class="rating-info">90</p>
         </div>
         <div class="grid-item grid-item-3">
-            <img src="./assets/Lewandowski.png">
+            <div class=card-overlay>
+                <img class="fireball-selector" src="./assets/fireball.png" alt="Player selector, ball on fire">
+                <p class="overlay-text">Favs <br>  02</p>
+                <img class= "player-image" src="./assets/Lewandowski.png" alt="Robert Lewandowski smoulders.">
+            </div>
+            <p class="player-name">Robert Lewandowski</p>
+            <p class="date">${date}</p>
+            <p class="about-player">Drop a wiki link</p>
+            <p class="team">Team</p>
+            <p class="team-info">Bayern Munich</p>
+            <p class="rating">RATING</p>
+            <p class="rating-info">95</p>
         </div>
         <div class="grid-item grid-item-4">
-            <img src="./assets/Mane.png">
+            <div class=card-overlay>
+                <img class="fireball-selector" src="./assets/fireball.png" alt="Player selector, ball on fire">
+                <p class="overlay-text">Favs <br>  02</p>
+                <img class= "player-image" src="./assets/Mane.png" alt="Mane being a goat">
+            </div>
+            <p class="player-name">Sadio Mane</p>
+            <p class="date">${date}</p>
+            <p class="about-player">Drop a wiki link</p>
+            <p class="team">Team</p>
+            <p class="team-info">Liverpool F.C.</p>
+            <p class="rating">RATING</p>
+            <p class="rating-info">91</p>
         </div>
         <div class="grid-item grid-item-5">
-            <img src="./assets/Salah.png">
+            <div class=card-overlay>
+                <img class="fireball-selector" src="./assets/fireball.png" alt="Player selector, ball on fire">
+                <p class="overlay-text">Favs <br>  02</p>
+                <img class= "player-image" src="./assets/Salah.png" alt="The Egyptian King, Mohammed Salah">
+            </div>
+            <p class="player-name">Mohammed Salah</p>
+            <p class="date">${date}</p>
+            <p class="about-player">Drop a wiki link</p>
+            <p class="team">Team</p>
+            <p class="team-info">Liverpool F.C.</p>
+            <p class="rating">RATING</p>
+            <p class="rating-info">96</p>
         </div>
         <div class="grid-item grid-item-6">
-            <img src="./assets/Suarez.png">
+            <div class=card-overlay>
+                <img class="fireball-selector" src="./assets/fireball.png" alt="Player selector, ball on fire">
+                <p class="overlay-text">Favs <br>  02</p>
+                <img class= "player-image" src="./assets/Suarez.png" alt="The blood-sucking and bite-y boi, Luis Suarez">
+            </div>
+            <p class="player-name">Luis Suarez</p>
+            <p class="date">${date}</p>
+            <p class="about-player">Drop a wiki link</p>
+            <p class="team">Team</p>
+            <p class="team-info">Atletico Madrid</p>
+            <p class="rating">RATING</p>
+            <p class="rating-info">90</p>
         </div>
         <div class="grid-item grid-item-7">
-            <img src="./assets/Vardy.png">
+            <div class=card-overlay>
+                <img class="fireball-selector" src="./assets/fireball.png" alt="Player selector, ball on fire">
+                <p class="overlay-text">Favs <br>  02</p>
+                <img class= "player-image" src="./assets/Vardy.png" alt="The one and only, goal-scorer galore Jamie Vardy.">
+            </div>
+            <p class="player-name">Jamie Vardy</p>
+            <p class="date">${date}</p>
+            <p class="about-player">Drop a wiki link</p>
+            <p class="team">Team</p>
+            <p class="team-info">Leicester City F.C.</p>
+            <p class="rating">RATING</p>
+            <p class="rating-info">90</p>
         </div>
         <div class="grid-item grid-item-8">
-            <img src="./assets/Pereira.png">
+            <div class=card-overlay>
+                <img class="fireball-selector" src="./assets/fireball.png" alt="Player selector, ball on fire">
+                <p class="overlay-text">Favs <br>  02</p>
+                <img class= "player-image" src="./assets/Pereira.png" alt="The Brazilian boy-wonder, Matheus Pereira">
+            </div>
+            <p class="player-name">Matheus Pereira</p>
+            <p class="date">${date}</p>
+            <p class="about-player">Drop a wiki link</p>
+            <p class="team">Team</p>
+            <p class="team-info">West Bromwich Albion</p>
+            <p class="rating">RATING</p>
+            <p class="rating-info">85</p>
         </div>
     </div>
 </body>
