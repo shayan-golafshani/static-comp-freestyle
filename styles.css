@@ -21,6 +21,7 @@
     font-family: 'Raleway', sans-serif;
 }
 
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -95,7 +96,11 @@
   
   @media (max-width: 54em) {
     body {
-      background:#607D8B;
+      background:green;
+    }
+
+    h1 {
+        color: #F5F5F5;
     }
 
     .toggle-button {
@@ -150,18 +155,21 @@
     border-radius: 15px;
     background-color: gold ;
     /* height: min-content; */
-    min-width: 10rem;
+    /* min-width: 3rem; */
+    max-width: 25rem;
     /* width: 25%; */
     margin-bottom: 10vh;
     height: auto;
     border: 5px solid #212121;
     padding: 7px;
-    transform: all 1s ease-in-out
+    transform: all 1s ease-in-out;
+    transition: 1s;
 }
 
 .grid-item:hover {
     box-shadow: 0px 16px 10px 0px #0000003d;
     transform: scale(1.025);
+    transition: 1s;
 }
 
 .player-image {
@@ -216,7 +224,7 @@
 }
 
 .overlay-text {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     padding-right: 5px;
 }
 
@@ -256,4 +264,16 @@ select {
     flex-direction: row;
     padding-left: 2rem;
     margin-bottom: 1rem;
+}
+
+@media (min-width: 1980px){
+    .grid-item {
+        max-width: 25vw;
+    }
+}
+
+.about-player a {
+    text-decoration: none;
+    color: #607D8B;
+    font-size: 1.5rem;
 }
